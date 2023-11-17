@@ -58,6 +58,15 @@ table {
   font: 100%;
 }
 
+.no-bullets {
+  list-style-type: none; /* Removes bullet points */
+  padding-left: 0; /* Removes indentation/padding */
+}
+
+#home, #reference, #highlighted-media, #running-references {
+  margin-bottom: 20px; /* Adjust the value as needed for your layout */
+}
+
 /*****************************************************************************/
 /*
 /* Home
