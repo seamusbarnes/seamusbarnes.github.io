@@ -47,4 +47,4 @@ Here's a list of some of my main resources at the moment:
 [^1]: Obviously, if you have a particular passion for something else, then go work on that, because you won't succeed at something you're faking
 [^2]: ... and LLMs are making coding obsolete, and I still have a full-time job, and I have newborn child, and I hardly any time to spend on AI or learning to code, five tiny insignificant details...
 [^3]: MatLab excluded.
-[^4]: TODO: add links to these spaces
+[^4]: [Pet classifier](https://huggingface.co/spaces/levjam/fastai_pet_classifier) (based on the fastai library, the fastai 2022 course, and the [Tanishq Abraham Gradio](https://www.tanishq.ai/blog/posts/2021-11-16-gradio-huggingface.html) tutorial); [Bear classifier](https://huggingface.co/spaces/levjam/bears_classifier) (based on a custom downloaded dataset)
