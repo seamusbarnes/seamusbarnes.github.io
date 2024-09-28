@@ -2,7 +2,7 @@
 layout: post
 comments: false
 title: "A New Compass and a New Map"
-excerpt: "<img src='/assets/posts/medieval_map.jpg' width=100% atl='test'>Where have I been and where am I going?"
+excerpt: "<img src='/assets/posts/medieval_map_cropped.jpg' width=100% atl='test'>Where have I been and where am I going?"
 date: 2023-11-13
 ---
 

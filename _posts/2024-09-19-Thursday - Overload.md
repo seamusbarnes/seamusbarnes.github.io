@@ -2,8 +2,8 @@
 layout: post
 comments: false
 title: "Thursday - Overload"
-excerpt: "<img src='/assets/posts/Kartikay_hair.png' width=100% alt='test'><p>Inspiration from Kartikay</p>"
-date: 2024-09-19
+excerpt: "<img src='/assets/posts/Kartikay_hair.png' width=100% alt='test'><p>Sometimes the modern world overtakes and overwhelms. Too much, too fast, too intense. Numbs the nerve endings. We must reset every now and then. We must reset constantly.</p>"
+date: 2024-09-19 09:00:00
 ---
 
 <img src="/assets/posts/Kartikay_hair.png" width='100%'>
