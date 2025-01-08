@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-    <body>
+<head>
+  <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/miscellaneous/monkee-favicon.ico">
+  <!-- Other head content -->
+</head>
 
-    {% include header.html %}
+<body>
 
-    <div class="page-content">
-      <div class="wrap">
+  {% include header.html %}
+
+  <div class="page-content">
+    <div class="wrap">
       {{ content }}
-      </div>
     </div>
+  </div>
 
-    {% include footer.html %}
+  {% include footer.html %}
 
-    </body>
+</body>
+
 </html>
