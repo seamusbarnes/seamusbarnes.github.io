@@ -3,7 +3,7 @@ layout: post
 title: "What I Learned From a Postdoc Interview Rejection"
 date: 2025-01-09 10:00:00 +0000
 categories: example
-tags: [personal, career, coding interviews, postdoc]
+tags: [personal, career, coding interviews, postdoc, python, linear regression]
 excerpt: "Doing bits of coding here or there is not enough, you need to lock in and have the fundamentals at your fingertips."
 ---
 
