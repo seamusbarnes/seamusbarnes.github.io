@@ -3,7 +3,7 @@ name: Scheduled Redeployment
 on:
   schedule:
     # Runs every day at 00:00 UTC (adjust the time as needed)
-    - cron: "35 9 * * *"
+    - cron: "0 10 * * *"
 
 jobs:
   rebuild:
