@@ -1,0 +1,22 @@
+name: Scheduled Redeployment
+
+on:
+  schedule:
+    # Runs every day at 00:00 UTC (adjust the time as needed)
+    - cron: "28 9 * * *"
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Trigger Pages Build
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          # Create an empty commit to trigger a rebuild
+          git commit --allow-empty -m "Trigger Pages Build"
+          git push
