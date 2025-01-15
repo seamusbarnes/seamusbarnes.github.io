@@ -152,6 +152,20 @@ p {
 .posts { list-style-type: none; }
 
 .posts li { margin-bottom: 30px; }
+.posts li.pinned {
+  border: 1px solid #d3d3d3;
+  background-color: #f9f9f9;
+  padding: 3px;
+  margin-bottom: 29px;
+  border-radius: 3px;
+}
+/* .posts li.pinned {
+  border: 2px solid #ffd700;
+  background-color: #fff8dc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+} */
 
 .posts .post-link {
   font-size: 20px;

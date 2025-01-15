@@ -3,6 +3,24 @@ layout: default
 ---
 
 <div class="home">
+  <!-- Pinned Posts Section -->
+  <ul class="posts">
+    {% for post in site.posts %}
+    {% if post.tags contains 'pinned' %}
+    <li class="pinned"> <!-- Add class="pinned" here -->
+      <!-- <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+      <span class="post-date">Pinned Post</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <br>
+      {% if post.custom_excerpt %}
+      <p>{{ post.custom_excerpt }}</p>
+      {% else %}
+      <p>{{ post.excerpt }}</p>
+      {% endif %}
+    </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
 
   <ul class="posts">
     {% for post in site.posts %}

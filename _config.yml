@@ -21,3 +21,11 @@ kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+
+navigation:
+  - title: "Home"
+    url: /
+  - title: "Welcome"
+    url: /welcome/
+  - title: "Tags"
+    url: /tags/
