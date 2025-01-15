@@ -155,7 +155,7 @@ p {
 .posts li.pinned {
   border: 1px solid #d3d3d3;
   background-color: #f9f9f9;
-  padding: 3px;
+  padding: 5px;
   margin-bottom: 29px;
   border-radius: 3px;
 }

@@ -3,12 +3,13 @@ layout: default
 ---
 
 <div class="home">
+
   <!-- Pinned Posts Section -->
+  <!-- scan through posts to find posts tagged pinned, so they can be generated first, and with a custom css -->
   <ul class="posts">
     {% for post in site.posts %}
     {% if post.tags contains 'pinned' %}
-    <li class="pinned"> <!-- Add class="pinned" here -->
-      <!-- <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> -->
+    <li class="pinned">
       <span class="post-date">Pinned Post</span>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       <br>
@@ -22,6 +23,8 @@ layout: default
     {% endfor %}
   </ul>
 
+  <!-- Normal Posts Section -->
+  <!-- scan through posts again to find posts not tagged pinned, so they can be generated in order, with their normal css -->
   <ul class="posts">
     {% for post in site.posts %}
     {% unless post.tags contains 'pinned' %}
