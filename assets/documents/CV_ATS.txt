@@ -1,0 +1,69 @@
+Name: Dr James Byers
+Tagline: PHOTONICS ENGINEER -> COMPUTER SCIENTIST
+Phone: +44 7807 970050
+Email: james.byers92@gmail.com
+GitHub: github.com/seamusbarne
+Blog: seamusbarnes.github.io/til
+LinkedIn: linkedin.com/in/james-byers-en
+
+CAREER CHANGE STATEMENT
+I am a photonics engineer transitioning to a second career in software with an emphasis on data science and machine learning. I have exten- sive experience developing Python codebases collaboratively for quantum and optics control and data analysis, and have suplemented this experience with significant self-study in other areas relevant to software engineering and machine learning (see below).
+
+I bring a strong foundation in problem-solving, analytical thinking, and collaborative development of Python codebases for complex systems, supplemented by self-study in areas such as ML algorithms, data science, and modern software engineering practices.
+
+SKILLS
+Machine Learning: Python (PyTorch, scikit-learn, XGBoost, Optuna, NumPy, Pandas, Matpotlib etc.), computer vision (CNNs, OpenCV, fast.ai), time-series modeling and LLMs (transformers, auto-encoders, embeddings, prompt engineering).
+Software Development: Python, Git (CI/CD pipelines, unit tests), REST APIs, Javascript, HTML, CSS, Linux, hardware control (LabView, Artiq, PSerial).
+Nanofabrication: e-beam lithography, CVD, RIE, ICP, CMP, wafer beonding, thin-film deposition, chemical etching, thermal oxidation, ellipsometry
+Languages: English (native), Dutch (conversational)
+
+EMPLOYMENT HISTORY
+Photonicics Development Engineer, Oxford Ionics, Oxford UK, 2022-2024
+- Developed optics setups for characterisation of integrated photonics components for use in a quantum processor unit (QPU).
+- Designed, developed and tested Python codebases for quantum experiments and data analysis.
+- Implemented data analysis pipelines for quantum experiments, ensuring accurate and reproducible results.
+- Designed, built and characterised sub-micron resolution microscopes.
+- Characterised integrated photonics devices and collaborated on long-term technology development.
+
+Photonics Engineer, Finchetto, Reading UK, 2022 - 2022
+- Designed micro-packaged and integrated optical systems for optical computation.
+- Performed optics simulations in MATLAB.
+- Rapidly acquired new physics knowledge to guide development.
+
+Postdoctoral Researcher, The University of Twente NL, 2021 - 2022
+- Developed an EUV imaging spectrometer for EUV lithography.
+- Designed micron-scale diffraction lenses.
+- Managed the fabrication of diffraction lenses.
+- Performed EUV spectroscopy experiments a custom-built spectrometer at the various institutes (ARSM, ARCNL, and the University of Delft).
+
+Senior Research Assistant, The University of Southampton UK, 2019 - 2021
+- Developed SiN integrated phtonics in on-chip spectroscopy for biomedical applications.
+- Designed and fabricated integrated photonics circuits
+- Developed SiN etching recipes
+- Fabricatedd photonic crystal waveguide devices for TE-to-TM coupling
+- Mentored undergraduate students.
+
+EDUCATION
+PhD in Optoelectronic Engineering, University of Southampton UK, 2016-2020
+- Thesis: Narrow Slot Fully-Crystalline Accumulation Modulator for Low-Power Optoelectronic Interconnection
+MSc Nanoscale Science and Technology, University of Leeds UK, 2014 - 2015
+- Thesis: Simulation of Thermal Transport in Semiconductor Nanostructures
+BSc Physics and PHilosophy, University of Hull UK, 2010 - 2013
+
+ACADEMIC PUBLICATIONS
+1. Mostafa, Y., Bouza, Z., Byers, J., Babenko, I., Ubachs, W., Versolato, O. O., & Bayraktar, M. (2023). Extreme ultraviolet broadband imaging spectrometer using dispersion-matched zone plates. Optics letters, 48(16), 4316-4319
+2. Byers, J., Debnath, K., Arimoto, H., Husain, M. K., Sotto, M., Hillier, J., ... & Saito, S. (2021). 10 nm SiO2 TM Slot Mode in Laterally Mismatched Asymmetric Fin-Waveguides. Frontiers in Physics, 9, 659585.
+3. Bouza, Z., Byers, J., Scheers, J., Schupp, R., Mostafa, Y., Behnke, L., ... & Versolato, O. O. (2021). The spectrum of a 1-μm-wavelength-driven tin microdroplet laser-produced plasma source in the 5.5–265.5 nm wavelength range. AIP advances, 11(12).
+4. Zhang, W., Debnath, K., Chen, B., Li, K., Liu, S., Ebert, M., ... & Thomson, D. J. (2021). High bandwidth capacitance efficient silicon MOS modulator. Journal of lightwave technology, 39(1), 201-207.
+5. Saito, S., Tomita, I., Sotto, M., Debnath, K., Byers, J., Al-Attili, A. Z., ... & Rutt, H. N. (2020). Si photonic waveguides with broken symmetries: Applications from modulators to quantum simulations. Japanese Journal of Applied Physics, 59(SO), SO0801.
+6. Debnath, K., Thomson, D. J., Zhang, W., Khokhar, A. Z., Littlejohns, C., Byers, J., ... & Saito, S. (2018). All-silicon carrier accumulation modulator based on a lateral metal-oxide-semiconductor capacitor. Photonics Research, 6(5), 373-379.
+7. Byers, J., Debnath, K., Arimoto, H., Husain, M. K., Sotto, M., Li, Z., ... & Saito, S. (2018). Silicon slot fin waveguide on bonded double-SOI for a low-power accumulation modulator fabricated by an anisotropic wet etching technique. Optics Express, 26(25), 33180-33191.
+
+ACADEMIC CONFERENCES
+8. Thomson, D. J., Zhang, W., Li, K., Debnath, K., Liu, S., Chen, B., ... & Reed, G. T. (2020). Silicon photonics for high data rate applications-INVITED. In EPJ Web of Conferences (Vol. 238, p. 01005). EDP Sciences.
+9. Zhang, W., Debnath, K., Chen, B., Husain, M. K., Khokhar, A. Z., Liu, S., ... & Thomson, D. J. (2019, August). High speed silicon capacitor modulators for TM polarisation. In 2019 IEEE 16th International Conference on Group IV Photonics (GFP) (pp. 1-2). IEEE.
+10. Saito, S., Sotto, M., Debnath, K., Byers, J., Al-Attili, A. Z., Tomita, I., ... & Rutt, H. N. (2019, November). Novel Si Photonic Waveguides and Applications to Optical Modulators. In 2019 24th Microoptics Conference (MOC) (pp. 66-67). IEEE.
+11. Byers, J., Debnath, K., Arimoto, H., Husain, M. K., Sotto, M., Li, Z., ... & Saito, S. (2018, August). 3D Fin Waveguide on 10nm Gate Oxide 2021 Bonded Double-SOI for Low VπL Accumulation Modulator. In 2018 IEEE 15th International Conference on Group IV Photonics (GFP) (pp. 1-2). IEEE.
+12. Debnath, K., Thomson, D. J., Zhang, W., Khokhar, A. Z., Littlejohns, C., Byers, J., ... & Saito, S. (2018, May). 20Gbps silicon lateral MOS-Capacitor electro-optic modulator. In CLEO: Science and Innovations (pp. SM3B-5). Optica Publishing Group.
+13. Tomita, I., Debnath, K., Ibukuro, K., Husain, M. K., Byers, J., Zhang, Z., & Saito, S. (2018, August). LiNbO 3/Si-Hybrid Slot-Waveguide Electro-Optic Modulators. In 2018 IEEE 15th International Conference on Group IV Photonics (GFP) (pp. 1-2). IEEE.
+14. Thomson, D. J., Debnath, K., Zhang, W., Li, K., Liu, S., Meng, F., ... & Reed, G. T. (2018, July). Towards high speed and low power silicon photonic data links. In 2018 20th International Conference on Transparent Optical Networks (ICTON) (pp. 1-4). IEEE.
