@@ -33,6 +33,8 @@ GEM
       terminal-table (~> 2.0)
     jekyll-sass-converter (2.2.0)
       sassc (> 2.0.1, < 3.0)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.5.1)
@@ -44,6 +46,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
+    nuggets (1.6.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -67,6 +70,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.2.0)
+  jekyll-tagging
   webrick (~> 1.7)
 
 BUNDLED WITH
