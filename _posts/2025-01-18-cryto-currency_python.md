@@ -3,7 +3,7 @@ layout: post
 title: "Using Python and Bash to Print Daily Crypto Prices"
 date: "2025-01-18 10:00:00 +0000"
 tags: [python, coding, bash, crypto]
-# excerpt: "NONE"
+excerpt: "<img src='assets/posts/binance-api-python.png' width=100% alt='test'>"
 ---
 
 I went through a phase of copying down the daily crypto open prices for several crypto currencies (BTC, ETH, LINK, DOT, ADA). This forced me to pay more attention to the crypto markets when I was following it more closely. I would go to binance.com and manually find each card, find the daily open, and copy it down. This was a bit tedious and annoying, so I decided to automate the process using the `requests` python library and Binance's api (`url = 'https://api.binance.com/api/v3/klines'`). I put the `crypto_simple.py` script in a `bash` script and added it to the zsh path so it could be called globally. The result was something like this:
