@@ -2,3 +2,5 @@ assets/drafts/
 _drafts/
 _site/
 .jekyll-cache/
+deleteme.py
+pyenv/
