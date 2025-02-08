@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Python and Bash to Print Daily Crypto Prices"
+title: "TIL: Using Python and Bash to Print Daily Crypto Prices"
 date: "2025-01-18 10:00:00 +0000"
 tags: [python, coding, bash, crypto]
 excerpt: "<img src='assets/posts/binance-api-python.png' width=100% alt='test'>"

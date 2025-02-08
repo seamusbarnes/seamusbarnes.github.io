@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "How to Enable Scheduled Redeploys in Github Actions"
+title: "TIL: How to Enable Scheduled Redeploys in Github Actions"
 date: "2025-01-15 12:00:00 +0000"
 tags: [github]
-excerpt: "This post explains how to to setup github actions so that your jekyll static website is rebuild daily, irrespective of push redeploys, enduring that pushed future posts are added to the live site on the right day automatically."
+excerpt: "This post explains how to to setup github actions so that your jekyll static
+  website is rebuild daily, irrespective of push redeploys, enduring that pushed future
+  posts are added to the live site on the right day automatically."
 ---
 
 I host this blog on github, which is useful because when I add a post scheduled for release in the past (specified in the frontmatter of the .md post file in `date: 2025-01-01 08:00:00 +0000` for example) and then test the site locally with `bundle exec jekyll serve` I can see exactly what the site will look like when I push the changes to github and trigger a rebuild/redeploy of the website. When I write a post scheduled for a time in the future I can also see what the site will look like online with `bundle exec jekyll serve --future` which builds all posts irrespective of the frontmatter `date` tag. Without amending the github actions this causes a small problem. By default github actions only rebuilds/redeploys the site when changes are pushed to github, so if there are several posts with frontmatter `date` in the future, these posts will not be build until a new push ofter their release date. To automatically rebuild/redeploy the site daily we need to add a scheduled redeployments. Luckily, this is straightforward.

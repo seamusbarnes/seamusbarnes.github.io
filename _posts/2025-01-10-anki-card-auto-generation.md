@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using Python to Automatically Generate Anki Cloze Deletion Cards"
+title: "TIL: Using Python to Automatically Generate Anki Cloze Deletion Cards"
 date: 2025-01-10 15:30:00 +0000
 categories: example
 tags: [anki, python]

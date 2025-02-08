@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Use The Python Package llm To Generate Plain-Engish System Detail Summaries"
+title: "TIL: Use The Python Package llm To Generate Plain-Engish System Detail Summaries"
 date: 2025-01-13 12:00:00 +0000
 categories: example
 tags: [machine learning, llm, llms, ai]
-excerpt: "Simon Willison's `llm` package can be used to easily interact with large language models like gpt-4o and o1-preview in the command line, which is especially powerful when you want the model to have immediate access to responses to bash commands, for example to generate system detail summaries. "
+excerpt: "Simon Willison's `llm` package can be used to easily interact with large
+  language models like gpt-4o and o1-preview in the command line, which is especially
+  powerful when you want the model to have immediate access to responses to bash commands,
+  for example to generate system detail summaries. "
 ---
 
 Simon Willison has created a great open source `Python` package `llm` for working with OpenAI's large language models (e.g. `gpt-4o-mini`, `gpt-4o`, `o1-mini` and `o1 preview`) on the command line. I wrote about creating my own version of this to experiment witn OpenAI's API, but Simon Willison's version is much more robust and mature, with significantly more features. The github repo for the project is [simonw/llm](https://github.com/simonw/llm?tab=readme-ov-file), where it is extensively documented.

@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Why is the Closed-Form Solution to Linear Regression Inefficient?"
+title: "TIL: Why is the Closed-Form Solution to Linear Regression Inefficient?"
 date: 2025-01-12 10:00:00 +0000
 categories: example
 tags: [machine learning, linear regression, meths]
-excerpt: "I realised, to my horror(!), that I don't actually understand the nuts and bolts of linear regression. This post outlines some of what I have learned about how the linear algebra works, and why gradient descent beats the closed-form solution, despite being an iterative solution instead of a single computation solution."
+excerpt: "I realised, to my horror(!), that I don't actually understand the nuts and
+  bolts of linear regression. This post outlines some of what I have learned about
+  how the linear algebra works, and why gradient descent beats the closed-form solution,
+  despite being an iterative solution instead of a single computation solution."
 ---
 
 Andrew Carr posted an interesting interview question on Twitter ([tweet](https://x.com/andrew_n_carr/status/1876855682529480844)):

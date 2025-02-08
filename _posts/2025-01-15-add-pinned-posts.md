@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Add Pinned Posts to a Jekyll Blog"
+title: "TIL: How to Add Pinned Posts to a Jekyll Blog"
 date: "2025-01-15 20:00:00 +0000"
 categories: example
 tags: [jekyll, github pages, html, css]

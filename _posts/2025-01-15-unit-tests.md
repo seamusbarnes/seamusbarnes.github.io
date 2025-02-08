@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Write Simple Unit Tests"
+title: "TIL: How to Write Simple Unit Tests"
 date: "2025-01-15 08:00:01 +0000"
 tags: [python, coding, unittests]
 excerpt: "How to write unit tests in pythin using unittest for an absolute beginner."

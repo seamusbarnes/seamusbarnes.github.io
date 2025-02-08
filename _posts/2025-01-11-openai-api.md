@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Use the OpenAI API"
+title: "TIL: How to Use the OpenAI API"
 date: 2025-01-11 10:00:00 +0000
 categories: example
 tags: [python, openai, chatgpt]
