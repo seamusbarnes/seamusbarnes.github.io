@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "TIL: Training a fastai Image Classification Model to Identify Japanese Food"
+title: "Training a fastai Image Classification Model to Identify Japanese Food"
 date: 2025-01-20 08:00:00 +0000
-categories: example
+categories: til
 tags: [fasti, python, image classification, ML]
-excerpt: "<img src='assets/posts/japanese-food-classifier-california_roll-inference.png'
+excerpt:
+  "<img src='assets/posts/japanese-food-classifier-california_roll-inference.png'
   width=50% alt='test'>"
 ---
 

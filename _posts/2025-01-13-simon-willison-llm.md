@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "TIL: Use The Python Package llm To Generate Plain-Engish System Detail Summaries"
+title: "Use The Python Package llm To Generate Plain-Engish System Detail Summaries"
 date: 2025-01-13 12:00:00 +0000
-categories: example
+categories: til
 tags: [machine learning, llm, llms, ai]
-excerpt: "Simon Willison's `llm` package can be used to easily interact with large
+excerpt:
+  "Simon Willison's `llm` package can be used to easily interact with large
   language models like gpt-4o and o1-preview in the command line, which is especially
   powerful when you want the model to have immediate access to responses to bash commands,
   for example to generate system detail summaries. "

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "TIL: Renaming Blogposts Using ruamel.yaml"
+title: "Renaming Blogposts Using ruamel.yaml"
 date: "2025-02-09 19:00:00 +0000"
-categories: example
+categories: til
 tags: [python, blog, yaml]
 # excerpt: "testest"
 ---

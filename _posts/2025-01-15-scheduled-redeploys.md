@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "TIL: How to Enable Scheduled Redeploys in Github Actions"
+title: "How to Enable Scheduled Redeploys in Github Actions"
 date: "2025-01-15 12:00:00 +0000"
+categories: til
 tags: [github]
-excerpt: "This post explains how to to setup github actions so that your jekyll static
+excerpt:
+  "This post explains how to to setup github actions so that your jekyll static
   website is rebuild daily, irrespective of push redeploys, enduring that pushed future
   posts are added to the live site on the right day automatically."
 ---

@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "TIL: Connect to a Remote Server and Setup a Jupyter Notebook with Port Forwarding"
+title: "Connect to a Remote Server and Setup a Jupyter Notebook with Port Forwarding"
 date: 2025-01-21 10:00:00 +000
-categories: example
+categories: til
 tags: [ssh, linux, jupyter, port]
-excerpt: "Some simple commands and instructions for connecting to remote linux server
+excerpt:
+  "Some simple commands and instructions for connecting to remote linux server
   with ssh, setting up a jupyter notebook and then setting up port forwarding so you
   can edit the notebook on the remote machine directly locally in the browser or VSCode."
 ---

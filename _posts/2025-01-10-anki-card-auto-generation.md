@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "TIL: Using Python to Automatically Generate Anki Cloze Deletion Cards"
+title: "Using Python to Automatically Generate Anki Cloze Deletion Cards"
 date: 2025-01-10 15:30:00 +0000
-categories: example
+categories: til
 tags: [anki, python]
 ---
 
@@ -73,7 +73,7 @@ with open(input_csv, 'r', encoding='utf-8') as f_in, open(output_txt, 'w', encod
         f_out.write(line)
 ```
 
-This generates a `.txt` fle which can be imprted into Anki. It is important to correctly set the _Field separator_ option to _Tab_, and the _Note Type_ to _Cloze_ so Anki's import tool recognises how the the field should be generated from each line, and that the {{c1::WORD}} is regognised as a cloze deletion element.
+This generates a `.txt` fle which can be imprted into Anki. It is important to correctly set the _Field separator_ option to _Tab_, and the _Note Type_ to _Cloze_ so Anki's import tool recognises how the the field should be generated from each line, and that the {% raw %}{{c1::WORD}}{% endraw %} is regognised as a cloze deletion element.
 
 <div style="text-align: center;">
   <!-- <p style="margin: 0; text-align: center; font-weight: bold">

@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "TIL: Why is the Closed-Form Solution to Linear Regression Inefficient?"
+title: "Why is the Closed-Form Solution to Linear Regression Inefficient?"
 date: 2025-01-12 10:00:00 +0000
-categories: example
+categories: til
 tags: [machine learning, linear regression, meths]
-excerpt: "I realised, to my horror(!), that I don't actually understand the nuts and
+excerpt:
+  "I realised, to my horror(!), that I don't actually understand the nuts and
   bolts of linear regression. This post outlines some of what I have learned about
   how the linear algebra works, and why gradient descent beats the closed-form solution,
   despite being an iterative solution instead of a single computation solution."
@@ -67,5 +68,3 @@ where:
 - θ<sub>j</sub><sup>(t+1)</sup>: The updated value of the parameter θ<sub>j</sub> after the (t+1)-th iteration.
 - α: The learning rate, which controls the step size for updating θ<sub>j</sub>. A small α leads to slow convergence, while a large α might cause divergence.
 - ∂J(θ) / ∂θ<sub>j</sub>: The gradient of the cost function with respect to θ<sub>j</sub>, which determines the direction and magnitude of the update.
-
-<!-- ![Equation](<https://latex.codecogs.com/png.latex?J(w)%20=%20\frac{1}{2n}%20|Xw%20-%20y|^2>) -->

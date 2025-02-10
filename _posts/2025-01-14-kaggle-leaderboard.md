@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "TIL: How to Plot the Kaggle Leaderboard Scores for a Particular Competition"
+title: "How to Plot the Kaggle Leaderboard Scores for a Particular Competition"
 date: 2025-01-14 01:00:00 +0000
-categories: example
+categories: til
 tags: [kaggle, python]
 ---
 

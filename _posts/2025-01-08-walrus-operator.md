@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "TIL: What is the Python Walrus Operator (:=)?"
+title: "What is the Python Walrus Operator (:=)?"
 date: 2025-01-08 10:00:00 +0000
-categories: example
+categories: til
 tags: [python]
 ---
 
