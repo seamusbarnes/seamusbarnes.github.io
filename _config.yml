@@ -7,7 +7,7 @@ url: "https://seamusbarnes.github.io"
 
 twitter_username: Seaumus_Barnes
 github_username: seamusbarnes
-remote_theme: flancast90/millidocs-dark
+# remote_theme: flancast90/millidocs-dark
 
 # Build settings
 markdown: kramdown
