@@ -4,10 +4,10 @@ title: "Introductions"
 date: "2023-11-11 10:00:00 +0000"
 categories: general
 tags: [general]
-excerpt: "<img src='/assets/posts/ocean_cropped.png' width=100% alt='test'><p>The end is nigh. The beginning is nigh. What does it reveal about your approach to something when it always feels like you are at the beginning, or always in the middle, or always at the end? Perspective, as usual, is everything.</p>"
+excerpt: "<img src='assets/posts/ocean_cropped.png' width=100% alt='test'><p>The end is nigh. The beginning is nigh. What does it reveal about your approach to something when it always feels like you are at the beginning, or always in the middle, or always at the end? Perspective, as usual, is everything.</p>"
 ---
 
-<img src="/assets/posts/ocean_cropped.png" width="100%" />
+<img src="{{ site.baseurl }}/assets/posts/ocean_cropped.png" width="100%" />
 
 The end is nigh. The beginning is nigh. What does it reveal about your approach to something when it always feels like you are at the beginning, or always in the middle, or always at the end? Perspective as usual is everything.
 
@@ -21,7 +21,7 @@ The telos of this blog is to reflect _practically_ and _deliberately_.
 
 You do not have to go to the woods to live deliberately, you can do it here and now. I ask that you try to read deliberately, or don't read at all. There is so to do in this world. Make a decision to do something, and do it deliberately. Do not live haphazardly or at random, buffetted through life by someone elses fate. Find your own path or make one. You have only yourself to blame.
 
-<img src="/assets/posts/bronze_raice_eyes_cropped.png" width="100%" />
+<img src="{{ site.baseurl }}/assets/posts/bronze_raice_eyes_cropped.png" width="100%" />
 
 ---
 

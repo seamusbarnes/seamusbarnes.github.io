@@ -4,10 +4,10 @@ title: "A New Compass and a New Map"
 date: "2023-11-13 10:00:00 +0000"
 categories: general
 tagds: []
-excerpt: "<img src='/assets/posts/medieval_map_cropped.jpg' width=100% atl='test'>Where have I been and where am I going?"
+excerpt: "<img src='assets/posts/medieval_map_cropped.jpg' width=100% atl='test'>Where have I been and where am I going?"
 ---
 
-<img src="/assets/posts/medieval_map.jpg" width='100%'>
+<img src="{{ site.baseurl }}//assets/posts/medieval_map_cropped.jpg" width='100%'>
 
 Like many mediocre students I spent much of my adult life without making any decisive career decisions. Undegrad, masters, PhD, postdoc... All default paths taken for lack of a better offer. I did all these things only to wake up one morning in my late 20s and and realise I had gotten a PhD by accident, in an area I don't care about. I accidently became a photonics engineer and I have realised, 7 years after starting my PhD in photonics, that I don't actually like photonics... Well, that's embarrassing.
 
@@ -18,7 +18,7 @@ I can't remember the exact moment I decided to throw in the towel on the photoni
 For me, if you want an impact on the future technically, basically all other technological development pales in comparison to AI. It is 1995, the internet is booming, and if you don't know how to code, you're going to miss it[^1]. I have decided that for me, this is the most important thing to work on, and everything else can wait. There is only one tiny, insignificant detail, I don't know machine learning or how to code[^2]. But knowledge and experience isn't a barrier to entry. The only barriers to entry are in your mind, all you have to do is step over them.
 
 <div style="text-align: center;">
-    <img src="/assets/posts/just_do_it.jpg" width="50%" />
+    <img src="{{ site.baseurl }}/assets/posts/just_do_it.jpg" width="50%" />
 </div>
 
 ## Where I'm Up To

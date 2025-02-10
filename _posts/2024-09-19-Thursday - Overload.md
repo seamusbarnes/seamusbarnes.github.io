@@ -7,7 +7,7 @@ tags: [personal]
 excerpt: "<img src='assets/posts/Kartikay_hair.png' width=100% alt='test'><p>Sometimes the modern world overtakes and overwhelms. Too much, too fast, too intense. Numbs the nerve endings. We must reset every now and then. We must reset constantly.</p>"
 ---
 
-<img src="/assets/posts/Kartikay_hair.png" width='100%'>
+<img src="{{ site.baseurl }}/assets/posts/Kartikay_hair.png" width='100%'>
 
 _How to read a Book_ is a provocatively simple title for a book. It pokes fun at the assumption the reader has about what they are capable of. What do you mea, _how to read a book_, if I can read, how could I not know how to read a book? After a moments thought it might occur you that you could ask similarly provocative and profound questions such as _How to look at a painting_, _How to go for a walk_, _How to read a sentence_, or even _How to have a thought_. These things are not as easy as they seem.
 
