@@ -419,7 +419,7 @@ p {
   .site-nav .trigger {
     clear: both;
     margin-bottom: 5px;
-    display: none;
+    /* display: none; */
   }
 
   .site-nav:hover .trigger { display: block; }
