@@ -1,3 +1,8 @@
+# plugins:
+#   - jekyll-remote-theme
+
+# # remote_theme: flancast90/millidocs-dark
+
 # Site settings
 title: The New (New) Blog
 email:
@@ -7,7 +12,6 @@ url: "https://seamusbarnes.github.io"
 
 twitter_username: Seaumus_Barnes
 github_username: seamusbarnes
-# remote_theme: flancast90/millidocs-dark
 
 # Build settings
 markdown: kramdown
