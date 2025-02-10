@@ -1,20 +1,22 @@
 ---
 layout: default
-title: "Today I Learned"
-includelink: true
-permalink: /til/
 ---
 
-<h1>Today I Learned</h1>
+<div class="til">
 
-<ul class="posts">
-    {% for post in site.posts %}
-    {% if post.categories contains "til" %}
-    <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
+    <!-- Normal Posts Section -->
+    <!-- scan through posts again to find posts not tagged pinned, so they can be generated in order, with their normal css -->
+    <ul class="posts">
+        {% for post in site.posts %}
+        {% unless post.tags contains 'pinned' %}
+        <li>
+            <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <br>
+
+        </li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+
+</div>
