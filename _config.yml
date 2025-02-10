@@ -2,7 +2,7 @@
 title: The New (New) Blog
 email:
 description: "Atonement for a Temporarily Embarrassed Scientist"
-baseurl: "/seamusbarnes.github.io" # Replace <repository> with your repo name
+baseurl: "" # Replace <repository> with your repo name
 url: "https://seamusbarnes.github.io"
 
 twitter_username: Seaumus_Barnes
