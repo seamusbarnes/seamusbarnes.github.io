@@ -1,0 +1,20 @@
+---
+layout: default
+title: "Blogroll"
+includelink: true
+permalink: /blogroll/
+---
+
+<h1>Blogroll</h1>
+
+<ul class="posts">
+    {% for post in site.posts %}
+    {% if post.categories contains "blogroll" %}
+    <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <p>{{ post.excerpt }}</p>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
