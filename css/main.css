@@ -1,3 +1,33 @@
+:root {
+  --font-main: Helvetica, Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-small: 14px;
+  --font-size-smaller: 12px;
+  --font-size-title: 20px;
+  --font-size-post-title: 16px;
+  --font-size-header: 18px;
+
+  --font-size-h1: 32px;
+  --font-size-h2: 28px;
+  --font-size-h3: 24px;
+  --font-size-h4: 20px;
+  --font-size-h5: 18px;
+  --font-size-h6: 16px;
+
+  --line-height-heading: 1.2;
+  --margin-heading: 40px 0 20px;
+
+  --color-text: #333;
+  --color-text-muted: #818181;
+  --color-primary: #2a7ae2;
+  --color-primary-hover: #000;
+  --color-visited: #205caa;
+
+  --color-bg: #fdfdfd;
+  --color-border: #e8e8e8;
+  --color-highlight: #eef;
+}
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -9,18 +39,39 @@
 html, body { height: 100%; }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: var(--font-main);
+  font-size: var(--font-size-base);
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+  background-color: var(--color-bg);
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  line-height: var(--line-height-heading);
+  margin: var(--margin-heading);
+}
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+h1 { font-size: var(--font-size-h1); }
+h2 { font-size: var(--font-size-h2); }
+h3 { font-size: var(--font-size-h3); }
+h4 { font-size: var(--font-size-h4); }
+h5 { font-size: var(--font-size-h5); font-weight: bold; }
+h6 { font-size: var(--font-size-h6); font-weight: bold; }
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--color-visited);
+}
 
 /* Utility */
 
@@ -50,9 +101,9 @@ a:visited { color: #205caa; }
 .site-title,
 .site-title:hover,
 .site-title:visited {
+  font-size: var(--font-size-title);
+  color: var(--color-text);
   display: block;
-  color: #333;
-  font-size: 26px;
   letter-spacing: -1px;
   float: left;
   line-height: 56px;
@@ -149,9 +200,18 @@ p {
 
 .home h1 { margin-bottom: 25px; }
 
-.posts { list-style-type: none; }
+.posts {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 
-.posts li { margin-bottom: 30px; }
+.posts li {
+  font-size: var(--font-size-small);
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
 .posts li.pinned {
   border: 1px solid #d3d3d3;
   background-color: #f9f9f9;
@@ -159,23 +219,16 @@ p {
   margin-bottom: 29px;
   border-radius: 3px;
 }
-/* .posts li.pinned {
-  border: 2px solid #ffd700;
-  background-color: #fff8dc;
-  padding: 10px;
-  margin-bottom: 10px;
-  border-radius: 3px;
-} */
 
 .posts .post-link {
-  font-size: 20px;
-  letter-spacing: -1px;
-  line-height: 1;
+  font-size: var(--font-size-post-title);
+  letter-spacing: -0.5px;
+  line-height: 1.2;
 }
 
 .posts .post-date {
   display: block;
-  font-size: 15px;
+  font-size: 13px;
   color: #818181;
 }
 
@@ -183,13 +236,12 @@ p {
 /* Post styles */
 /* ----------------------------------------------------------*/
 
-.post-header { margin: 10px 0 30px; }
-
 .post-header h1 {
-  font-size: 36px;
+  font-size: var(--font-size-h1);
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
+  margin: 0px 0 10px; /* This might be too much */
 }
 
 .post-header .meta {
@@ -198,36 +250,33 @@ p {
   margin-top: 5px;
 }
 
-.post-content { margin: 0 0 30px; }
+.post-content {
+  font-family: var(--font-main);
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+  font-weight: 300;
+  color: #333
+}
 
-.post-content > * { margin: 20px 0; }
 
-
+./* Apply Global Header Styles */
 .post-content h1,
 .post-content h2,
 .post-content h3,
 .post-content h4,
 .post-content h5,
 .post-content h6 {
-  line-height: 1;
-  font-weight: 300;
-  margin: 40px 0 20px;
+  line-height: var(--line-height-heading);
+  margin: var(--margin-heading);
 }
 
-.post-content h2 {
-  font-size: 32px;
-  letter-spacing: -1.25px;
-}
-
-.post-content h3 {
-  font-size: 26px;
-  letter-spacing: -1px;
-}
-
-.post-content h4 {
-  font-size: 20px;
-  letter-spacing: -1px;
-}
+/* Individual Header Font Sizes */
+.post-content h1 { font-size: var(--font-size-h1); }
+.post-content h2 { font-size: var(--font-size-h2); }
+.post-content h3 { font-size: var(--font-size-h3); }
+.post-content h4 { font-size: var(--font-size-h4); }
+.post-content h5 { font-size: var(--font-size-h5); font-weight: bold; }
+.post-content h6 { font-size: var(--font-size-h6); font-weight: bold; }
 
 .post-content blockquote {
   border-left: 4px solid #e8e8e8;
@@ -245,16 +294,14 @@ p {
 .post pre,
 .post code {
   border: 1px solid #d5d5e9;
-  background-color: #eef;
+  background-color: var(--color-highlight);
   padding: 8px 12px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
   border-radius: 3px;
-  /* font-size: 15px; */
-  overflow:auto;
+  overflow: auto;
   font-size: 0.8em;
   line-height: 1.3;
   white-space: pre;
+  margin-bottom: 15px; /* Ensures spacing below code blocks */
 }
 
 .post code { padding: 1px 5px; }
@@ -302,7 +349,9 @@ p {
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 
-.highlight  { background: #ffffff; }
+.highlight  {
+  background: var(--color-bg);
+}
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */
@@ -432,10 +481,6 @@ p {
     margin: 0;
   }
 
-  .post-header h1 { font-size: 36px; }
-  .post-content h2 { font-size: 28px; }
-  .post-content h3 { font-size: 22px; }
-  .post-content h4 { font-size: 18px; }
   .post-content blockquote { padding-left: 10px; }
   .post-content ul,
   .post-content ol { padding-left: 10px; }
@@ -445,5 +490,47 @@ p {
     clear: both;
     width: auto;
     margin: 0 0 15px; }
+    
+}
 
+/* Concise */
+/* ----------------------------------------------------------*/
+
+.concise-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.concise-list li {
+  font-size: var(--font-size-small);
+  line-height: 1.4;
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+}
+
+.concise-date {
+  font-size: var(--font-size-smaller);
+  color: var(--color-text-muted);
+  min-width: 100px;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.concise-link {
+  color: var(--color-primary);
+  text-decoration: none;
+  flex-grow: 1;
+}
+
+.concise-link:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+
+/* Remove date spacing for Blogroll and Links */
+.blogroll .concise-date,
+.links .concise-date {
+  display: none;
 }

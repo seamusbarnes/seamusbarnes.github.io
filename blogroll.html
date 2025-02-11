@@ -1,20 +1,14 @@
 ---
-layout: default
-title: "Blogroll"
-includelink: true
-permalink: /blogroll/
+layout: concise
+title: Blogroll
 ---
 
-<h1>Blogroll</h1>
-
-<ul class="posts">
-    {% for post in site.posts %}
-    {% if post.categories contains "blogroll" %}
-    <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <p>{{ post.excerpt }}</p>
-    </li>
-    {% endif %}
-    {% endfor %}
-</ul>
+<div class="concise-list">
+    <ul>
+        {% for link in site.data.blogroll %}
+        <li>
+            <a class="concise-link" href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

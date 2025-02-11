@@ -95,7 +95,7 @@ plot_cat_probabilities(probs, learn)
 ```
 
 <div style="text-align: center;">
-  <img src="{{ site.baseurl }}/assets/posts/japanese-food-classifier-california_roll-prediction-graph.png" style="width: 100%;">
+  <img src="{{ site.baseurl }}/assets/posts/japanese-food-classifier-california_roll-prediction-graph.png" style="width: 75%;">
 </div>
 
 So the model thinks there's a 76.01% chance the image is of sushi, an approximately 13% chance it's tempura, and then the rest of the classes drop off exponentially.
