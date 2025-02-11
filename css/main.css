@@ -15,7 +15,7 @@
   --font-size-h6: 16px;
 
   --line-height-heading: 1.2;
-  --margin-heading: 40px 0 20px;
+  --margin-heading: 20px 0 20px;
 
   --color-text: #333;
   --color-text-muted: #818181;
@@ -508,12 +508,13 @@ p {
   margin: 2px 0;
   display: flex;
   align-items: center;
+  padding-left: 10px;
 }
 
 .concise-date {
   font-size: var(--font-size-smaller);
   color: var(--color-text-muted);
-  min-width: 100px;
+  min-width: 75px;
   text-align: right;
   padding-right: 10px;
 }
