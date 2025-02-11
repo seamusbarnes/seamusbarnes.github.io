@@ -4,12 +4,56 @@ title: Blogroll
 ---
 
 Blogs I read:
-<div class="concise-list">
-    <ul>
-        {% for link in site.data.blogroll %}
-        <li>
-            <a class="concise-link" href="{{ link.url }}" target="_blank">{{ link.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
+<ul class="blogroll-concise">
+    {% for link in site.data.blogroll %}
+    <li>
+        <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
+        {% if link.description %}
+        <span>
+            {{- link.description
+            | strip_newlines
+            | strip
+            | replace_regex: "\s+", " "
+            -}}
+        </span>
+        {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+
+<style>
+    .blogroll-concise {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: var(--font-size-small);
+        line-height: 1.4;
+    }
+
+    .blogroll-concise li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 1em;
+    }
+
+    .blogroll-concise li a {
+        display: inline;
+        flex: 0 0 10em;
+        /* margin-right: 1em; */
+        white-space: nowrap;
+        color: var(--color-primary);
+        text-decoration: none;
+    }
+
+    .blogroll-concise li a:hover {
+        color: var(--color-primary-hover);
+        text-decoration: underline;
+    }
+
+    /* Make the span display as a block to allow justification */
+    .blogroll-concise li span {
+        flex: 1;
+        display: block;
+        text-align: justify;
+    }
+</style>
