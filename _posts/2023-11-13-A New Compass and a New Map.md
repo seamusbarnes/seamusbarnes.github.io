@@ -7,7 +7,7 @@ tagds: []
 excerpt: "<img src='assets/posts/medieval_map_cropped.jpg' width=100% atl='test'>Where have I been and where am I going?"
 ---
 
-<img src="{{ site.baseurl }}//assets/posts/medieval_map_cropped.jpg" width='100%'>
+<img src="{{ site.baseurl }}/assets/posts/medieval_map_cropped.jpg" width='100%'>
 
 Like many mediocre students I spent much of my adult life without making any decisive career decisions. Undegrad, masters, PhD, postdoc... All default paths taken for lack of a better offer. I did all these things only to wake up one morning in my late 20s and and realise I had gotten a PhD by accident, in an area I don't care about. I accidently became a photonics engineer and I have realised, 7 years after starting my PhD in photonics, that I don't actually like photonics... Well, that's embarrassing.
 
