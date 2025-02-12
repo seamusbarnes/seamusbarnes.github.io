@@ -209,7 +209,7 @@ p {
 .posts li {
   font-size: var(--font-size-small);
   line-height: 1.3;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .posts li.pinned {
@@ -289,7 +289,14 @@ p {
 }
 
 .post-content ul,
-.post-content ol { padding-left: 20px; }
+.post-content ol {
+  padding-left: 20px;
+  margin-bottom: 1em;
+}
+
+.post-content .question {
+  margin-top: 1em;
+}
 
 .post pre,
 .post code {
@@ -482,8 +489,6 @@ p {
   }
 
   .post-content blockquote { padding-left: 10px; }
-  .post-content ul,
-  .post-content ol { padding-left: 10px; }
 
   .site-footer .column {
     float: none;
