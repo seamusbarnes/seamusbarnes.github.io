@@ -33,9 +33,9 @@ layout: default
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       <br>
       {% if post.custom_excerpt %}
-      <p>{{ post.custom_excerpt}}</p>
+      {{ post.custom_excerpt}}
       {% else %}
-      <p>{{ post.excerpt }}</p>
+      {{ post.excerpt }}
       {% endif %}
 
     </li>

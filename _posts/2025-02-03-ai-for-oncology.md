@@ -4,11 +4,11 @@ title: "AI for Oncology"
 data: "2025-02-03 10:00:00 +0000"
 categories: til
 tags: [AI, oncology, python, DIRECT, SCC]
-excerpt:
-  "Summary of how the AI for Oncology LAB (NKI, the Netherlands) is planning
+excerpt: >
+  Summary of how the AI for Oncology LAB (NKI, the Netherlands) is planning
   on using AI to automatically segment SCC biopsies intra-operatively, and how they
   developed the DIRECT package to recreate high-quality MRI medical images from under-sampled
-  k-space MRI data."
+  k-space MRI data.
 ---
 
 ## Introcuction
