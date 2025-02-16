@@ -2,7 +2,7 @@
 layout: post
 title: "Using Whisper and Deep-translator (GoogleTranslator) To Transcribe and Translate Youtube Videos From Dutch to English"
 date: "2025-02-16 18:00:00 +0000"
-categooris: til
+categories: til
 tags: [python, whisper, translation, yt_dlp, dutch, year of health]
 excerpt: " "
 ---
