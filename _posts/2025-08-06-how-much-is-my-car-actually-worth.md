@@ -23,8 +23,9 @@ The page is also dynamically generated as you scroll (lazy loading), and if you 
 
 Once I had the `.html` files, I ran a **simple Python + BeautifulSoup script** to extract and clean the HTML and get these fields: title, subtitle, price, mileage, and year.
 
-> **If you want the full code and the example data, you can check it out here:**  
-> [github.com/seamusbarnes/analyse-autotrader-data](https://github.com/seamusbarnes/analyse-autotrader-data)
+If you want the full code and the example data, you can check it out here:
+
+- [github.com/seamusbarnes/analyse-autotrader-data](https://github.com/seamusbarnes/analyse-autotrader-data)
 
 Here’s the key bit that parses the files:
 
