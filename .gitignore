@@ -4,4 +4,5 @@ _drafts/
 _site/
 .jekyll-cache/
 deleteme.*
-pyenv/
+pyenv/.jekyll-metadata
+.jekyll-metadata
