@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Hybrid Content Retrieval System with FastAPI (MRR@3 ≥ 0.8)"
+title: "Building a Content Retrieval App with FastAPI (MRR@3 ≥ 0.8)"
 date: "2025-10-23 00:00:00 +0000"
 categories: general
 tags:
@@ -17,6 +17,14 @@ tags:
   ]
 excerpt: "I recently applied for an ML Engineer position, and the company had the audacity to reject me (can you believe it?). Part of the application was a coding challenge process involved building a FastAPI content retrieval application that would return the top-3 blogposts from a dataset of posts that most closely matched a user's query. This post explains how I created a custom blogpost dataset, created a synthetic evaluation set, created sparse lexical features and dense semantic embeddings, and served and evalued my FastAPI locally. Everything is reproducible and there are many possibilities for extending this approach or applying it to downstream tasks."
 ---
+
+## tl;dr
+
+- Built a hybrid TF-IDF and dense-embedding text retriever
+- Achieved MRR@3 ≥ 0.9
+- Modular, extensible, FastAPI-based architecture
+- Ready for real-world retrieval and RAG use cases
+- Code available on [github](https://github.com/seamusbarnes/content-retriever)
 
 ## Introduction
 

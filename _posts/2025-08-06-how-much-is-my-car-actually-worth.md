@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Scraping and analysing autotrader advert data to see exactly how much I'm getting ripped off"
+title: "Scraping Autotrader Data to See How Much I'm Being Ripped Off"
 date: "2025-08-06 08:00:00 +0000"
 categories: general
 tags: [python, data science, cars]

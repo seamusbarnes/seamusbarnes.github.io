@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Use The Python Package llm To Generate Plain-Engish System Detail Summaries"
+title: "Generate Plain-Language System Summaries using Simon Willison's llm Package"
 date: 2025-01-13 12:00:00 +0000
 categories: til
 tags: [machine learning, llm, llms, ai]
